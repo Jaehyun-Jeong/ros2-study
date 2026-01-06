@@ -5,6 +5,9 @@ file(REMOVE_RECURSE
   "/home/jaehyun-jeong/ros2-study/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/msg/__init__.py"
   "/home/jaehyun-jeong/ros2-study/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/msg/_hardware_status.py"
   "/home/jaehyun-jeong/ros2-study/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c"
+  "/home/jaehyun-jeong/ros2-study/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/__init__.py"
+  "/home/jaehyun-jeong/ros2-study/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area.py"
+  "/home/jaehyun-jeong/ros2-study/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.c"
   "CMakeFiles/my_robot_interfaces__py"
 )
 
