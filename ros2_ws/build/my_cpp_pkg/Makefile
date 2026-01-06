@@ -197,6 +197,43 @@ my_cpp_pkg_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_cpp_pkg_uninstall.dir/build.make CMakeFiles/my_cpp_pkg_uninstall.dir/build
 .PHONY : my_cpp_pkg_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named hw_status_publisher
+
+# Build rule for target.
+hw_status_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hw_status_publisher
+.PHONY : hw_status_publisher
+
+# fast build rule for target.
+hw_status_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_status_publisher.dir/build.make CMakeFiles/hw_status_publisher.dir/build
+.PHONY : hw_status_publisher/fast
+
+src/hardware_status_publisher.o: src/hardware_status_publisher.cpp.o
+.PHONY : src/hardware_status_publisher.o
+
+# target to build an object file
+src/hardware_status_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_status_publisher.dir/build.make CMakeFiles/hw_status_publisher.dir/src/hardware_status_publisher.cpp.o
+.PHONY : src/hardware_status_publisher.cpp.o
+
+src/hardware_status_publisher.i: src/hardware_status_publisher.cpp.i
+.PHONY : src/hardware_status_publisher.i
+
+# target to preprocess a source file
+src/hardware_status_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_status_publisher.dir/build.make CMakeFiles/hw_status_publisher.dir/src/hardware_status_publisher.cpp.i
+.PHONY : src/hardware_status_publisher.cpp.i
+
+src/hardware_status_publisher.s: src/hardware_status_publisher.cpp.s
+.PHONY : src/hardware_status_publisher.s
+
+# target to generate assembly for a file
+src/hardware_status_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_status_publisher.dir/build.make CMakeFiles/hw_status_publisher.dir/src/hardware_status_publisher.cpp.s
+.PHONY : src/hardware_status_publisher.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... my_cpp_pkg_uninstall"
 	@echo "... uninstall"
+	@echo "... hw_status_publisher"
+	@echo "... src/hardware_status_publisher.o"
+	@echo "... src/hardware_status_publisher.i"
+	@echo "... src/hardware_status_publisher.s"
 .PHONY : help
 
 

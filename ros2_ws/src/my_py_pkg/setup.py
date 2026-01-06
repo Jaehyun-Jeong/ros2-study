@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            "hw_status_publisher = my_py_pkg.hardware_status_publisher:main"
         ],
     },
 )
