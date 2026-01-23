@@ -12,7 +12,9 @@ find_package(rosidl_default_generators REQUIRED)
 # No comma
 rosidl_generate_interfaces(${PROJECT_NAME}
   "./msg/HardwareStatus.msg"
+  "./msg/LedPanelState.msg"
   "./srv/ComputeRectangleArea.srv"
+  "./srv/SetLed.srv"
 )
 
 ament_package()

@@ -6,8 +6,8 @@
 
 #include "my_robot_interfaces/msg/detail/hardware_status__struct.h"
 #include "my_robot_interfaces/msg/detail/hardware_status__functions.h"
-#include "my_robot_interfaces/msg/detail/hardware_status__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "my_robot_interfaces/msg/detail/hardware_status__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

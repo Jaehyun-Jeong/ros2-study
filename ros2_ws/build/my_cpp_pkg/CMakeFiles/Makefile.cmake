@@ -707,4 +707,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/my_cpp_pkg_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/hw_status_publisher.dir/DependInfo.cmake"
+  "CMakeFiles/LED_panel_node.dir/DependInfo.cmake"
+  "CMakeFiles/battery_node.dir/DependInfo.cmake"
   )

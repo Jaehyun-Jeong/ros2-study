@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:13:
-  Parse error.  Expected a command name, got quoted argument with text
-  "msg/HardwareStatus.msg".
-
-[0m

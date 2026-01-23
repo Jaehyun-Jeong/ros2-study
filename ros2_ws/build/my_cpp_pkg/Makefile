@@ -210,6 +210,80 @@ hw_status_publisher/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_status_publisher.dir/build.make CMakeFiles/hw_status_publisher.dir/build
 .PHONY : hw_status_publisher/fast
 
+#=============================================================================
+# Target rules for targets named LED_panel_node
+
+# Build rule for target.
+LED_panel_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LED_panel_node
+.PHONY : LED_panel_node
+
+# fast build rule for target.
+LED_panel_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LED_panel_node.dir/build.make CMakeFiles/LED_panel_node.dir/build
+.PHONY : LED_panel_node/fast
+
+#=============================================================================
+# Target rules for targets named battery_node
+
+# Build rule for target.
+battery_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battery_node
+.PHONY : battery_node
+
+# fast build rule for target.
+battery_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_node.dir/build.make CMakeFiles/battery_node.dir/build
+.PHONY : battery_node/fast
+
+src/LED_panel_node.o: src/LED_panel_node.cpp.o
+.PHONY : src/LED_panel_node.o
+
+# target to build an object file
+src/LED_panel_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LED_panel_node.dir/build.make CMakeFiles/LED_panel_node.dir/src/LED_panel_node.cpp.o
+.PHONY : src/LED_panel_node.cpp.o
+
+src/LED_panel_node.i: src/LED_panel_node.cpp.i
+.PHONY : src/LED_panel_node.i
+
+# target to preprocess a source file
+src/LED_panel_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LED_panel_node.dir/build.make CMakeFiles/LED_panel_node.dir/src/LED_panel_node.cpp.i
+.PHONY : src/LED_panel_node.cpp.i
+
+src/LED_panel_node.s: src/LED_panel_node.cpp.s
+.PHONY : src/LED_panel_node.s
+
+# target to generate assembly for a file
+src/LED_panel_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LED_panel_node.dir/build.make CMakeFiles/LED_panel_node.dir/src/LED_panel_node.cpp.s
+.PHONY : src/LED_panel_node.cpp.s
+
+src/battery_node.o: src/battery_node.cpp.o
+.PHONY : src/battery_node.o
+
+# target to build an object file
+src/battery_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_node.dir/build.make CMakeFiles/battery_node.dir/src/battery_node.cpp.o
+.PHONY : src/battery_node.cpp.o
+
+src/battery_node.i: src/battery_node.cpp.i
+.PHONY : src/battery_node.i
+
+# target to preprocess a source file
+src/battery_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_node.dir/build.make CMakeFiles/battery_node.dir/src/battery_node.cpp.i
+.PHONY : src/battery_node.cpp.i
+
+src/battery_node.s: src/battery_node.cpp.s
+.PHONY : src/battery_node.s
+
+# target to generate assembly for a file
+src/battery_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_node.dir/build.make CMakeFiles/battery_node.dir/src/battery_node.cpp.s
+.PHONY : src/battery_node.cpp.s
+
 src/hardware_status_publisher.o: src/hardware_status_publisher.cpp.o
 .PHONY : src/hardware_status_publisher.o
 
@@ -249,7 +323,15 @@ help:
 	@echo "... test"
 	@echo "... my_cpp_pkg_uninstall"
 	@echo "... uninstall"
+	@echo "... LED_panel_node"
+	@echo "... battery_node"
 	@echo "... hw_status_publisher"
+	@echo "... src/LED_panel_node.o"
+	@echo "... src/LED_panel_node.i"
+	@echo "... src/LED_panel_node.s"
+	@echo "... src/battery_node.o"
+	@echo "... src/battery_node.i"
+	@echo "... src/battery_node.s"
 	@echo "... src/hardware_status_publisher.o"
 	@echo "... src/hardware_status_publisher.i"
 	@echo "... src/hardware_status_publisher.s"
